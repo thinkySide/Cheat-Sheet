@@ -5,7 +5,11 @@
 🚧 // 삽질중...
 ⛔️ // 중단 :(
 ~~~
+ 
+## 💎 Solution
+1. ✅ [코드로 UIStackView 생성시, 오토레이아웃 경고 메시지](Solution/1.md)  - 23.03.15
 
-1. [코드로 UIStackView 생성시, 오토레이아웃 경고 메시지](Solution/1.md) ✅ - 23.03.15
 
-2. [UIView에 Gradient 적용하기](Solution/2.md) 🚧
+## 💡 Tip
+1. 🚧 [UIView에 Gradient 적용하기](Tip/1.md) 
+2. 🚧 [커스텀 font 사용하기](Tip/2.md) 
