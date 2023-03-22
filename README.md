@@ -11,4 +11,4 @@
 2. [UIView에 Gradient 적용하기 / 적용 안되는 문제?](Solution/2.md) - 23.03.16 ✅
 3. [커스텀 font 사용하기](Solution/3.md) - 23.03.16 ✅
 4. [ScrollView 사용하기](Solution/4.md) - 23.03.20 ✅
-5. [Charts 라이브러리 스크롤 시 화면 깨지는 문제]() - 23.03.21 🚧
+5. [Charts 라이브러리 스크롤 시 화면 깨지는 문제](Solution/5.md) - 23.03.22 ✅
