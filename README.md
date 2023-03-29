@@ -13,3 +13,4 @@
 4. [ScrollView 사용하기](Solution/4.md) - 23.03.20 ✅
 5. [Charts 라이브러리 스크롤 시 화면 깨지는 문제](Solution/5.md) - 23.03.22 ✅
 6. [Dashed Line 만들기](Solution/6.md) - 23.03.23 ✅
+7. [StackView에 Touch Event 추가하기](Solution/7.md) - 23.03.29 ✅
