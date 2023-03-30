@@ -15,3 +15,4 @@
 6. [Dashed Line 만들기](Solution/6.md) - 23.03.23 ✅
 7. [StackView에 Touch Event 추가하기](Solution/7.md) - 23.03.29 ✅
 8. [URL을 생성하지 못하는 문제](Solution/8.md) - 23.03.30 ✅
+9. [URL로 부터 이미지 받아오기](Solution/9.md) - 23.03.30 
