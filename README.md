@@ -16,3 +16,4 @@
 7. [StackView에 Touch Event 추가하기](Solution/7.md) - 23.03.29 ✅
 8. [URL을 생성하지 못하는 문제](Solution/8.md) - 23.03.30 ✅
 9. [URL로 부터 이미지 받아오기](Solution/9.md) - 23.03.30 ✅
+10. [Pushing the same view controller instance more than once is not supported 오류](Solution/10.md) - 23.03.30 ✅
