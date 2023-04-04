@@ -25,4 +25,4 @@
 16. [특정 위치 스크롤 버튼 구현하기](Solution/16.md) - 23.04.03 ✅
 17. [NavigationBar 하단 라인 삭제하기](Solution/17.md) - 23.04.02 ✅
 18. [Carousel 이펙트 구현하기](Solution/18.md) - 23.04.03 ✅
-19. [UITableView를 코드로 만들 때 컴포넌트가 출력되지 않는 문제](Solution/19.md) - 23.04.03 ✅
+19. [UITableView를 코드로 만들 때 컴포넌트가 출력되지 않는 문제](Solution/19.md) - 23.04.04 ✅
