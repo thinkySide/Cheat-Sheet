@@ -30,3 +30,4 @@
 21. [UINavigationBar 뒤로가기 버튼 커스텀](Solution/21.md) - 23.04.05 ✅
 22. [현재 날짜 및 시간 표시하기](Solution/22.md) - 23.04.05 ✅
 23. [Async/Await 사용해보기](Solution/23.md) - 23.04.06 ✅
+24. [금액에 콤마(,) 넣기](Solution/24.md) - 23.04.06 ✅
