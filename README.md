@@ -31,5 +31,5 @@
 22. [현재 날짜 및 시간 표시하기](Solution/22.md) - 23.04.05 ✅
 23. [Async/Await 사용해보기](Solution/23.md) - 23.04.06 ✅
 24. [금액에 콤마(,) 넣기](Solution/24.md) - 23.04.06 ✅
-25. [로딩화면 추가하기](Solution/25.md) - 23.04.07 🚧
-26. [SceneDelegate에 타입 프로퍼티로 window 만들기](Solution/26.md) - 23.04.07 🚧
+25. [로딩화면 추가하기](Solution/25.md) - 23.04.07 ✅
+26. [SceneDelegate에 타입 프로퍼티로 window 만들기](Solution/26.md) - 23.04.07 ✅
