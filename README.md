@@ -34,3 +34,4 @@
 25. [로딩화면 추가하기](Solution/25.md) - 23.04.07 ✅
 26. [SceneDelegate에 타입 프로퍼티로 window 만들기](Solution/26.md) - 23.04.07 ✅
 27. [유동적인 사이즈의 컴포넌트 생성하기](Solution/27.md) - 23.04.09 ✅
+28. [두개 View 사이 정가운데에 View 배치하기](Solution/28.md) - 23.04.09 ✅ 
