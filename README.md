@@ -36,4 +36,5 @@
 27. [유동적인 사이즈의 컴포넌트 생성하기](Solution/27.md) - 23.04.09 ✅
 28. [두개 View 사이 정가운데에 View 배치하기](Solution/28.md) - 23.04.09 ✅
 29. [초 단위를 시간 단위로 변환하기](Solution/29.md) - 23.04.11 ✅ 
-30. [UIStackView에 ContentsInset 주기](Solution/30.md) - 23.04.12 ✅ 
+30. [UIStackView에 ContentsInset 주기](Solution/30.md) - 23.04.12 ✅
+31. [UITextField 최대 글자수 만큼만 붙여넣기 하기](Solution/31.md) - 23.04.15 🚧
