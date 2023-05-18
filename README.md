@@ -19,7 +19,7 @@
 10. [Pushing the same view controller instance more than once is not supported 오류](Solution/10.md) - 23.03.30 ✅
 11. [Charts 라이브러리 / MarkerView 가장자리에서 잘리는 문제](Solution/11.md) - 23.03.31 ✅ 
 12. [Charts 라이브러리 / MarkerView 이전 클릭값 출력 문제](Solution/12.md) - 23.03.31 ✅
-13. [UI 컴포넌트화 하기](Solution/13.md) - 23.03.31 ⛔️
+13. [UI 컴포넌트화 하기](Solution/13.md) - 23.03.31 ✅
 14. [TabBarController 코드로 구현하기](Solution/14.md) - 23.04.02 ✅
 15. [상단에 고정되는 StickyHeader 구현하기](Solution/15.md) - 23.04.02 ✅
 16. [특정 위치 스크롤 버튼 구현하기](Solution/16.md) - 23.04.03 ✅
