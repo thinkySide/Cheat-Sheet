@@ -45,3 +45,4 @@
 36. [Github에 API KEY값 숨기기](Solution/36.md) - 23.05.02 ✅
 37. [한글 urlQuery 안전하게 치환하기](Solution/37.md) - 23.05.03 ✅
 38. [Xcode Commit Push 에러 - pathspec did not match any file(s) known to git](Solution/38.md) - 23.05.11 ✅
+39. [UINavigation LargeTitle과 일반 Title 자연스럽게 전환하기](Solution/39.md) - 23.05.20 ✅
