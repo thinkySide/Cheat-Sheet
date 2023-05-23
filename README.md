@@ -47,3 +47,4 @@
 38. [Xcode Commit Push 에러 - pathspec did not match any file(s) known to git](Solution/38.md) - 23.05.11 ✅
 39. [UINavigation LargeTitle과 일반 Title 자연스럽게 전환하기](Solution/39.md) - 23.05.20 ✅
 40. [가변적인 값 개수의 Dictionary 타입 JSON 처리하기](Solution/40.md) - 23.05.22 ✅
+41. [Closure에서 self 생략하기](Solution/41.md) - 23.05.23 ✅
