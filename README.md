@@ -51,3 +51,4 @@
 42. [실수형의 나머지값 구하기](Solution/42.md) - 23.06.20 ✅
 43. [UILabel에 Padding값 설정하기](Solution/43.md) - 23.07.01 ✅
 44. [UIImage 뒤집기](Solution/44.md) - 23.07.01 ✅
+45. [배열에서 특정한 값 삭제하기](Solution/45.md) - 23.07.07 ✅
