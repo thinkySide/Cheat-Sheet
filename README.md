@@ -53,4 +53,5 @@
 44. [UIImage 뒤집기](Solution/44.md) - 23.07.01 ✅
 45. [배열에서 특정한 값 삭제하기](Solution/45.md) - 23.07.07 ✅
 46. [CoreData 저장이 안되는 문제](Solution/46.md) - 23.08.05 ✅
-46. [ScrollView의 드래그 애니메이션이 짧을 때 부자연스러워지는 현상](Solution/47.md) - 23.08.09 ✅
+47. [ScrollView의 드래그 애니메이션이 짧을 때 부자연스러워지는 현상](Solution/47.md) - 23.08.09 ✅
+48. [Xcode 무선으로 아이폰에 앱 빌드하기](Solution/48.md) - 23.08.13 ✅
