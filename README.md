@@ -56,3 +56,4 @@
 47. [ScrollView의 드래그 애니메이션이 짧을 때 부자연스러워지는 현상](Solution/47.md) - 23.08.09 ✅
 48. [Xcode 무선으로 아이폰에 앱 빌드하기](Solution/48.md) - 23.08.13 ✅
 49. [DispatchQueue에 예약된 작업 취소하기](Solution/49.md) - 23.08.18 ✅
+50. [LongPress Animation 만들기](Solution/50.md) - 23.08.22 🚧
