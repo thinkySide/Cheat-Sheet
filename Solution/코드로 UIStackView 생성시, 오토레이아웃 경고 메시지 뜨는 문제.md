@@ -1,5 +1,7 @@
 # ✅ 코드로 UIStackView 생성시, 오토레이아웃 경고 메시지 뜨는 문제
 
+#AutoLayout
+
 ## 🤔 문제 정의
 `UITextField`, `UIView`가 포함된 `UIStackView`를 생성했는데   
 스토리보드와 동일한 제약조건을 줬음에도 불구하고 console 창에 경고메시지가 출력된다.
