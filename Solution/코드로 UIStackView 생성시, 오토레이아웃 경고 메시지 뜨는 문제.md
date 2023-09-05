@@ -1,6 +1,6 @@
 # ✅ 코드로 UIStackView 생성시, 오토레이아웃 경고 메시지 뜨는 문제
 
-#AutoLayout
+#### #AutoLayout 
 
 ## 🤔 문제 정의
 `UITextField`, `UIView`가 포함된 `UIStackView`를 생성했는데   
