@@ -76,3 +76,6 @@ override func updateConstraints() {
         super.updateConstraints()
     }
 ~~~
+
+## 옵시디언용 링크
+- [[UIView에 Gradient 적용 및 안되는 문제?]]
