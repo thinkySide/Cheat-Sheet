@@ -57,3 +57,5 @@
 48. [Xcode 무선으로 아이폰에 앱 빌드하기](Solution/48.md) - 23.08.13 ✅
 49. [DispatchQueue에 예약된 작업 취소하기](Solution/49.md) - 23.08.18 ✅
 50. [LongPress Animation 만들기](Solution/50.md) - 23.08.22 ✅
+
+옵시디언 테스트
