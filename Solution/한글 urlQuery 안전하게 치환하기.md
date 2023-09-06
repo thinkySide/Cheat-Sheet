@@ -37,3 +37,7 @@ urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) else {
 // 여기서 %20은 치환할 공백값을 뜻한다
 let safeURL = "\(formattingString)".replacingOccurrences(of: " ", with: "%20")
 ~~~
+
+
+## 🪁 Obsidian Link
+- [[초 단위를 시간 단위로 변환하기]]

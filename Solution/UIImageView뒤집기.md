@@ -38,3 +38,7 @@ private let tail: UIImageView = {
 ## 💌 Ref.
 
 - [rytak108님의 velog](https://velog.io/@rytak108/iOS-Swift-ImageView-%ED%9A%8C%EC%A0%84%EC%8B%9C%ED%82%A4%EA%B8%B0)
+
+
+## 🪁 Obsidian Link
+- 

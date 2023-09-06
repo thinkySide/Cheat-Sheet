@@ -107,3 +107,7 @@ func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options conn
 
 ## 💌 Ref.
 - [Kane-young님의 velog](https://velog.io/@leeyoungwoozz/iOS-storyboard-%EA%B0%80-%EC%95%84%EB%8B%8C-%EC%BD%94%EB%93%9C%EB%A1%9C-UI-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0-Navigation-Controller)
+
+
+## 🪁 Obsidian Link
+- 

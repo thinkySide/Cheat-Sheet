@@ -39,3 +39,10 @@ lazy var createBarButtonItem: UIBarButtonItem = {
     return item
 }()
 ~~~
+
+
+## 🪁 Obsidian Link
+- [[Pushing the same view controller instance more than once is not supported 오류]]
+- [[NavigationBar 하단 라인 삭제하기]]
+- [[UINavigationBar 뒤로가기 버튼 커스텀]]
+- [[UINavigation LargeTitle과 일반 Title 자연스럽게 전환하기]]

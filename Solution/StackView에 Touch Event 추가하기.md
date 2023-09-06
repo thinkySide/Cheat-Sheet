@@ -44,3 +44,7 @@ lazy var myStackView: UIStackView = {
     return stack
 }()
 ~~~
+
+
+## 🪁 Obsidian Link
+- [[LongPress Animation 만들기]]

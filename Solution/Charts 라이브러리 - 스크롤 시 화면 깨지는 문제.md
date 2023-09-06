@@ -54,3 +54,7 @@ chart.marker = myView // ❌ 이전 코드
 ~~~
 
 <img width="300" src="https://user-images.githubusercontent.com/113565086/226777553-6d43702b-24db-4101-bb75-caf5a1fcf922.gif">
+
+## 🪁 Obsidian Link
+- [[Charts 라이브러리 - MarkerView 가장자리에서 잘리는 문제]]
+- [[Charts 라이브러리 - MarkerView 이전 클릭값 출력 문제]]

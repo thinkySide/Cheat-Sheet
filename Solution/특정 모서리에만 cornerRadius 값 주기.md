@@ -49,3 +49,11 @@ private let myView: UIView = {
     return view
 }()
 ~~~
+
+
+## 🪁 Obsidian Link
+- [[UIView에 Gradient 적용 및 안되는 문제?]]
+- [[커스텀 Font 사용하기]]
+- [[Dashed Line 만들기]]
+- [[UI Component화 하기]]
+- [[유동적인 사이즈의 컴포넌트 생성하기]]

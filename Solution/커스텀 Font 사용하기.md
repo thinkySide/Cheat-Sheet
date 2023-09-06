@@ -52,3 +52,10 @@ let titleLabel: UILabel = {
 
 - [minji0801님의 velog](https://velog.io/@minji0801/iOSSwift-Custom-Font-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-%EC%95%B1-%EB%82%B4-%ED%8F%B0%ED%8A%B8-%EB%B3%80%EA%B2%BD-%EA%B8%B0%EB%8A%A5)
 
+
+## 🪁 Obsidian Link
+- [[UIView에 Gradient 적용 및 안되는 문제?]]
+- [[Dashed Line 만들기]]
+- [[UI Component화 하기]]
+- [[특정 모서리에만 cornerRadius 값 주기]]
+- [[유동적인 사이즈의 컴포넌트 생성하기]]

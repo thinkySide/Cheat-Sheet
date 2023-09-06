@@ -108,3 +108,6 @@ private func showToast(is active: Bool) {
     }
 }
 ~~~
+
+## 🪁 Obsidian Link
+- [[Async & Await 사용해보기]]

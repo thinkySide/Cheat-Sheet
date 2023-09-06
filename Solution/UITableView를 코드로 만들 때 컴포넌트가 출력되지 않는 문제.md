@@ -44,3 +44,6 @@ override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
 
 <img width="300" src="https://user-images.githubusercontent.com/113565086/229743287-d9cbf049-eeed-46e9-869a-ed2559c99315.png">
 
+
+## 🪁 Obsidian Link
+- [[현재 선택된 UITableView의 indexPath 구하기]]

@@ -33,3 +33,7 @@ Xcode를 이용해 내 아이폰에 앱을 빌드하기 위해선 항상 선이 
 ## 💌 Ref.
 
 - [MunGu Story님의 tistory](https://0urtrees.tistory.com/341)
+
+
+## 🪁 Obsidian Link
+- [[Xcode Commit Push 에러 - pathspec did not match any file(s) known to git]]

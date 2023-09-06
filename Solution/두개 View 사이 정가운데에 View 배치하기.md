@@ -46,3 +46,6 @@ NSLayoutConstraint.activate([
 해결방법으로 label의 높이를 모두 지정해주었다. fontSize를 기반으로 계산해 넣어주니 깔끔하게 완성!
 
 <img width="300" src="https://user-images.githubusercontent.com/113565086/230778016-aaf96425-332f-43d6-8c6c-60b9fe5b903d.png">
+
+## 🪁 Obsidian Link
+- [[코드로 UIStackView 생성시, 오토레이아웃 경고 메시지 뜨는 문제]]

@@ -83,3 +83,7 @@ APIKEY.plist
 ## 💌 Ref.
 
 - [나른한코딩 tistory](https://nareunhagae.tistory.com/44)
+
+
+## 🪁 Obsidian Link
+- 

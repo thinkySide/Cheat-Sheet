@@ -57,3 +57,10 @@ override func viewWillAppear() {
 ~~~
 
 <img width="300" src="https://github.com/dev-sejin/BAEGOPA-RestaurantPicked/assets/113565086/3746cf31-bd9c-4a55-9228-a591845236ef">
+
+
+## 🪁 Obsidian Link
+- [[Pushing the same view controller instance more than once is not supported 오류]]
+- [[NavigationBar 하단 라인 삭제하기]]
+- [[UINavigationBar 뒤로가기 버튼 커스텀]]
+- [[UIBarButtonItem의 title font 커스텀하기]]

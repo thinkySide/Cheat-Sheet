@@ -52,3 +52,8 @@ guard let url = URL(string: removeSpace) else {
 }
 // Success~
 ~~~
+
+
+## 🪁 Obsidian Link
+- [[URL로 부터 이미지 받아오기]]
+- [[가변적인 값 개수의 Dictionary 타입 JSON 처리하기]]

@@ -122,3 +122,7 @@ GroupList Entity에서는 [Block] 커스텀 타입을 담기위해 transformable
 ## 💌 Ref.
 
 -[jake-kim님의 tistory](https://ios-development.tistory.com/93)
+
+
+## 🪁 Obsidian Link
+- 

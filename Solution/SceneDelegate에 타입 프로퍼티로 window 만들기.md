@@ -48,3 +48,7 @@ static var window: UIWindow {
 // var window: Window? 요거를
 static var window: Window? // 요걸로 바꿨다!
 ~~~
+
+
+## 🪁 Obsidian Link
+- 

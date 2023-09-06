@@ -86,3 +86,7 @@ private func setupSelectedCell() {
 ## 💌 Ref.
 
 - [Stackoverflow - UICollectionView scrollToItem Not Working in iOS 14](https://stackoverflow.com/questions/50237180/uicollectionview-scrolltoitem-not-working-in-ios-14#comment87492844_50237180)
+
+
+## 🪁 Obsidian Link
+- 

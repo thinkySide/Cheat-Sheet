@@ -254,4 +254,5 @@ func setupStoreTrackingBlock() {
 https://github.com/thinkySide/Cheat-Sheet/assets/113565086/6075c07d-7f11-4309-aa69-daf3e4b72b9f
 
 
-
+## 🪁 Obsidian Link
+- [[StackView에 Touch Event 추가하기]]

@@ -34,3 +34,7 @@ if let indexPath = viewManager.tableView.indexPathForSelectedRow {
 ## 💌 Ref.
 
 - [정주님의 tistory](https://jeong9216.tistory.com/170)
+
+
+## 🪁 Obsidian Link
+- [[UITableView를 코드로 만들 때 컴포넌트가 출력되지 않는 문제]]

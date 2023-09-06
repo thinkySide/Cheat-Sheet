@@ -170,3 +170,6 @@ Task { // Task라는 특별한 키워드 안에 감싼다.
 
 ## 💌 Ref.
 - [jake-kim님의 tistoty](https://ios-development.tistory.com/958)
+
+## 🪁 Obsidian Link
+- [[DispatchQueue에 예약된 작업 취소하기]]

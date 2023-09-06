@@ -83,4 +83,5 @@ if paste.count > maxString {
 ~~~
 
 <br>
-
+## 🪁 Obsidian Link
+- 

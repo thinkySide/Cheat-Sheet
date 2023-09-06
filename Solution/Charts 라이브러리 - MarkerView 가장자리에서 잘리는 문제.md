@@ -96,3 +96,7 @@ open func draw(context: CGContext, point: CGPoint)
 (우선 실험 결과 다른 디바이스에서도 잘 나오는 것 같아 현 코드를 유지하고자 한다.)
 
 <img width="300" src="https://user-images.githubusercontent.com/113565086/229004523-f3e2b07d-df5a-4dde-8ede-d8ea56115bcd.gif">
+
+## 🪁 Obsidian Link
+- [[Charts 라이브러리 - 스크롤 시 화면 깨지는 문제]]
+- [[Charts 라이브러리 - MarkerView 이전 클릭값 출력 문제]]

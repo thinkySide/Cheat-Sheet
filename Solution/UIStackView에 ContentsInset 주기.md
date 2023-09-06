@@ -46,3 +46,7 @@ lazy var groupStackView: UIStackView = {
 
 ## 💌 Ref.
 - [sanghoon Ahn님의 velog](https://velog.io/@dvhuni/UIStackView-Margin-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0)
+
+
+## 🪁 Obsidian Link
+- 

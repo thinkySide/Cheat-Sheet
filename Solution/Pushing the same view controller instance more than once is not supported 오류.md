@@ -86,3 +86,10 @@ DispatchQueue.main.async {
 그리고 'Pushing the same view controller instance more than once is not supported' 오류는 네트워킹 과정에서 생기는 오류로 예상된다.   
 비동기 처리를 하는 과정에서 동시다발적으로 pushViewController가 호출되어 같은 ViewController를 가리키는 상황이지 않을까,,? 싶다.   
 정확하지 않을 수 있지만 결국 비동기 처리와 관련된 문제라 생각하고, 이는 공부를 더 진행해야겠다!   
+
+
+## 🪁 Obsidian Link
+- [[NavigationBar 하단 라인 삭제하기]]
+- [[UINavigationBar 뒤로가기 버튼 커스텀]]
+- [[UIBarButtonItem의 title font 커스텀하기]]
+- [[UINavigation LargeTitle과 일반 Title 자연스럽게 전환하기]]

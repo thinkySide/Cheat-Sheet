@@ -83,3 +83,7 @@ final class BubbleText: UILabel {
 ## 💌 Ref.
 
 - [yujindonut님의 tistory](https://vanillacreamdonut.tistory.com/282)
+
+
+## 🪁 Obsidian Link
+- 

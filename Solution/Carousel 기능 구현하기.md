@@ -130,3 +130,8 @@ extension ViewController: UIScrollViewDelegate {
 
 ## 💌 Ref.
 - [jake-kim님의 tistory](https://ios-development.tistory.com/1020)
+
+
+## 🪁 Obsidian Link
+- [[상단에 고정되는 StickyHeader 구현하기]]
+- [[로딩화면 추가하기]]

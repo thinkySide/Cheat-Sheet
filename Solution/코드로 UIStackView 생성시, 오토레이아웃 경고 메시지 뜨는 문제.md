@@ -77,5 +77,5 @@ override func updateConstraints() {
     }
 ~~~
 
-## Obsidian 링크
-- [[UIView에 Gradient 적용 및 안되는 문제?]]
+## 🪁 Obsidian Link
+- [[두개 View 사이 정가운데에 View 배치하기]]

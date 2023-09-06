@@ -32,3 +32,10 @@ navigationBarAppearance.shadowColor = .clear
 깔끔하게 선이 없어졌다 ㅎㅎ
 
 <img width="500" src="https://user-images.githubusercontent.com/113565086/229664924-f1d67ab0-3ecc-470b-ac23-0ea4d1d86b3e.png">
+
+
+## 🪁 Obsidian Link
+- [[Pushing the same view controller instance more than once is not supported 오류]]
+- [[UINavigationBar 뒤로가기 버튼 커스텀]]
+- [[UIBarButtonItem의 title font 커스텀하기]]
+- [[UINavigation LargeTitle과 일반 Title 자연스럽게 전환하기]]
