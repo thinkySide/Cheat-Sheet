@@ -1,0 +1,35 @@
+# ✅ Xcode 무선으로 아이폰에 앱 빌드하기
+
+#### #Xcode #Simulator
+
+## **🔍** 작성 목적
+
+Xcode를 이용해 내 아이폰에 앱을 빌드하기 위해선 항상 선이 필요했고 이 때문에 불편한점이 이것저것 많았다. (가령 선 연결이 불안정하다면 빌드하다 끊겨버린다던지,,) 그래서 무선으로도 연결하는 방법을 정리해보고자 한다.
+
+<br>
+
+## 📌 적용 방법
+
+### 1. 유선 연결로 초기 세팅하기
+
+처음엔 유선 연결을 통해 디바이스 정보를 확인한다. (필수)
+
+<br>
+
+### 2. Wi-fi 설정하기
+
+맥북의 Wi-fi와 연결하고자 하는 아이폰의 Wi-fi를 동일하게 설정해준다.
+
+<br>
+
+### 3. 무선 설정
+
+유선 연결이 되어있는 상태에서 Xcode 단축키 `Cmd + Shift + 2`를 통해 Device 패널을 열어준다. 이후 아래 이미지와 같이 Connect via network를 체크해주고 빌드하면 끝!
+
+<img src="https://github.com/thinkySide/Cheat-Sheet/assets/113565086/85aec264-cf06-4cf2-ac6c-0292da98fb55">
+
+<br>
+
+## 💌 Ref.
+
+- [MunGu Story님의 tistory](https://0urtrees.tistory.com/341)

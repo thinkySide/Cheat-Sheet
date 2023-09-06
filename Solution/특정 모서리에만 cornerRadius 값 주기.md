@@ -1,0 +1,51 @@
+# ✅ 특정 모서리에만 cornerRadius 값 주기
+
+#### #Publishing #UIKit 
+
+## **🔍** 작성 목적
+
+UI디자인을 하다보면 모든 모서리가 아닌 특정 모서리에만 cornerRadius 값을 줘야하는 경우가 빈번하다.   
+둥글게둥글게 알아보자!
+
+<br>
+
+## 📌 적용 방법
+
+### 1. 일단 UIView 부터 준비하자
+
+둥글게 둥글게 만들 `UIView`를 하나 만들어준다.   
+cornerRadius 값을 주기 위한 `clipsToBounds = true` 설정도 잊지 말자!
+
+~~~swift
+private let myView: UIView = {
+    let view = UIView()
+    view.backgroundColor = .blue
+    view.clipsToBounds = true
+    return view
+}()
+~~~
+
+<br>
+
+### 2. cornerRadius 주기!
+
+`CACornerMask`를 활용하여 구현이 가능하다!   
+원하는 모서리를 arrayLiteral 인자값으로 넣어주면 된다.
+
+- `layerMinXMinYCorner`: 왼쪽 상단
+- `layerMaxXMinYCorner`: 오른쪽 상단
+- `layerMinXMaxYCorner`: 왼쪽 하단
+- `layerMaxXMaxYCorner`: 오른쪽 하단
+
+~~~swift
+private let myView: UIView = {
+    let view = UIView()
+    view.backgroundColor = .blue
+    view.clipsToBounds = true
+
+    // 왼쪽 하단, 오른쪽 하단에 cornerRadius를 설정해줬다.
+    view.layer.maskedCorners = CACornerMask(arrayLiteral: .layerMinXMaxYCorner, .layerMaxXMaxYCorner)
+
+    return view
+}()
+~~~

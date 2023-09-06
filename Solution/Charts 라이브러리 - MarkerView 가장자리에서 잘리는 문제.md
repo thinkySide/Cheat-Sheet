@@ -1,0 +1,98 @@
+# ✅ Charts 라이브러리 - MarkerView 가장자리에서 잘리는 문제
+
+#### #Chart #Library  #UIKit 
+
+## 🤔 문제 정의
+highlightIndicator가 `ChartView`의 가장자리에 닿으면 잘리는 현상이 발생한다.   
+위에 dateLabel도 함께 잘리고 있는데 해결해보자.
+
+<img width="300" src="https://user-images.githubusercontent.com/113565086/228992568-6941adf3-da65-4985-8b6d-6636d7771e75.gif">
+
+<br>
+
+## 🪓 삽질 기록
+
+### 1. clipsToBounds = false 설정 
+`clipsToBounds` 의 값을 true로 설정하면 subView가 자신의 범위 밖에 있다면 그 영역만큼 잘려서 렌더링 되고,   
+반대로 false로 설정하면 subView가 영역 밖까지 전부 렌더링 된다고 한다.   
+실험을 위해 직접 간단한 예제를 만들어봤다.
+
+~~~swift
+import UIKit
+
+class ViewController: UIViewController {
+    
+    @IBOutlet weak var redView: UIView!
+    @IBOutlet weak var greenView: UIView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        redView.clipsToBounds = // true or false
+    }
+}
+~~~
+
+- true로 설정 : superView인 redView 안에 greenView가 들어감
+
+<img width="300" src="https://user-images.githubusercontent.com/113565086/228993217-c78ac844-5072-4b08-8900-bef041117ea4.png">
+
+<br>
+
+- false로 설정 : superView인 redView 밖까지 greenView가 렌더링 됨.
+
+<img width="300" src="https://user-images.githubusercontent.com/113565086/228998796-6a12140e-3021-468b-b4ac-8148e816bf17.png">
+
+<br>
+
+그래서 문제의 원인인 것 같은 곳에 적용해봤으나,,, 동작하지 않는다.   
+아무래도 clipsToBounds의 문제는 아닌듯 싶다.
+
+~~~swift 
+lazy var averagePriceChartView: LineChartView = {
+    let view = LineChartView()
+    view.clipsToBounds = false // 여기!
+    view.addSubview(priceMarkerView)
+    return view
+}()     
+~~~
+
+<br>
+
+### 2. context의 X값 조정하기
+잘리는 것을 해결하지 못한다면, 아예 잘리지 않도록 MarkerView 위치를 조정하는 것은 어떨까?   
+양쪽 끝 일정 범위 이상 스크롤이 되면 라벨의 위치를 유동적으로 바꿔주는 코드를 심어봤다.   
+MarkerView 클래스 내 `draw` 메서드에 작성해주었다.
+
+~~~swift
+// MarkerView.swift
+
+open func draw(context: CGContext, point: CGPoint)
+{
+    let offset = self.offsetForDrawing(atPoint: point)
+    context.saveGState()
+    
+    // ⭐️ 예외 처리
+    if point.x >= 300 { // 300 이상으로 커지면 x의 context를 -30
+        context.translateBy(x: point.x + offset.x - 30, y: self.frame.size.height + 20)
+    } else if point.x <= 50 { // 50 이하로 작아지면 x의 context를 +5
+        context.translateBy(x: point.x + offset.x + 5, y: self.frame.size.height + 20)
+    } else { // 그렇지 않은 경우에는 원래와 동일하게
+        context.translateBy(x: point.x + offset.x, y: self.frame.size.height + 20) // y에 +20을 함으로써 위의 라벨도 잘리지 않게
+    }
+
+    NSUIGraphicsPushContext(context)
+    self.nsuiLayer?.render(in: context)
+    NSUIGraphicsPopContext()
+    context.restoreGState()
+}
+~~~
+
+<br>
+
+## 😈 문제 해결
+
+결과는 만족스럽게 나왔다! 물론 상수로 값을 지정했기 때문에 리팩토링은 필요할 듯 싶다.   
+디바이스별 기준값이 다를텐데, 이를 가변적으로 조정하는 방법을 찾든, 최소값을 지정해야 할 것 같다.   
+(우선 실험 결과 다른 디바이스에서도 잘 나오는 것 같아 현 코드를 유지하고자 한다.)
+
+<img width="300" src="https://user-images.githubusercontent.com/113565086/229004523-f3e2b07d-df5a-4dde-8ede-d8ea56115bcd.gif">

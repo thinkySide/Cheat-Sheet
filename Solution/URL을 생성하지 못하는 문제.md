@@ -1,0 +1,54 @@
+# ✅ URL을 생성하지 못하는 문제
+
+#### #Networking #URL #Swift 
+
+## 🤔 문제 정의
+local 서버에서 이미지 데이터를 받아오기 위해 네트워킹을 하는데 문제가 발생했다.   
+브라우저에서는 정상적으로 url이 작동하는데, 내가 만든 URL객체로는 계속 nil값이 나온다!
+
+~~~swift
+guard let url = URL(string:"http://localhost:8000/중략...KakaoTalk_Photo_2023-03-16-09-55-08 003.jpg") else {
+    print("URL 생성 실패")
+    return
+}
+// URL 생성 실패
+~~~
+
+<br>
+
+## 🪓 삽질 기록
+
+### 1. URL 문자열 내 공백 발견
+브라우저를 유심히 보던 중, 그대로 붙여와 대조해보니 다른점이 있었다!   
+바로 공백에 `%` 기호가 들어갔던 것... 😱   
+기본적으로 체크했어야 하는 부분이었는데 브라우저에서 공백문자열을 인식해 자동으로 `%` 를 삽입해주고 있었다!
+
+<img width="600" src="https://user-images.githubusercontent.com/113565086/228700705-95036206-85bc-402b-b5e7-335482e206a6.png">
+
+<br>
+
+### 2. URL 문자열 내 공백 %로 치환하기
+이전에 코딩테스트 문제를 풀어보며 배웠던 `replacingOccurrences(of:with:)` 메서드를 이용해 공백을 제거해주었다.
+공백을 뜻하는 `%20` 을 실제 공백 자리에 삽입해주는 메서드이다.
+
+~~~swift
+// 공백 제거 (" "을 "%20"로 바꿔주기!)
+let removeSpace = "http://localhost:8000/중략/KakaoTalk_Photo_2023-03-16-09-55-08 003.jpg".replacingOccurrences(of: " ", with: "%20")
+~~~
+
+<br>
+
+## 😈 문제 해결
+
+결국 URL 문자열 내 공백 때문에 발생한 문제였다.   
+애를 먹인 문제는 아니었지만, 이러한 기본적인 부분들은 항상 잘 체크하도록 하자!
+
+~~~swift
+let removeSpace = "http://localhost:8000/중략/KakaoTalk_Photo_2023-03-16-09-55-08 003.jpg".replacingOccurrences(of: " ", with: "%20")
+
+guard let url = URL(string: removeSpace) else {
+    print("URL 생성 실패")
+    return
+}
+// Success~
+~~~

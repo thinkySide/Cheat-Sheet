@@ -1,0 +1,59 @@
+# ✅ UINavigation LargeTitle과 일반 Title 자연스럽게 전환하기
+
+#### #UINavigationController #UIKit 
+
+## 🤔 문제 정의
+
+'RestaurantPicked 팀 프로젝트' 과정에서 일어난 문제. UINavigation의 LargeTitle에서 일반 Title간의 전환이 일어날 때 부자연스러운 애니메이션이 보인다. 그리고 되돌아가면 다시 일반 Title로 변경 되어있어 수정이 필요하다.
+
+<img width="300" src="https://github.com/dev-sejin/BAEGOPA-RestaurantPicked/assets/113565086/224b907f-181c-41ac-9e5c-452381782c0e">
+
+<br>
+
+## 🪓 삽질 기록
+
+### 1. prefersLargeTitles 시점 조정
+
+`prefersLargeTitles` 속성이 Push되는 화면의 `viewDidLoad`에서 false로 설정되어 있었다. 이 구문 때문에 애니메이션이 끊기는 것 같았고, 다시 Pop되어 돌아오는 화면에서는 다시 true로 설정해주는 구문이 없어 `viewWillAppear` 메서드 안에 추가해주었다.
+
+~~~swift
+// DetailViewController.swift
+override func viewDidLoad() {
+    super.viewDidLoad()
+    navigationController?.navigationBar.prefersLargeTitles = false
+}
+
+// RandomViewController.swift
+override func viewWillAppear() {
+    super.viewWillAppear()
+    navigationController?.navigationBar.prefersLargeTitles = true
+}
+~~~
+
+결과적으로 다시 LargeTitle로 돌아오긴 하지만, 애니메이션의 부자연스러움은 고쳐지지 않았다.
+
+<br>
+
+## 😈 문제 해결
+
+구현하려고 하는 기능은 많이 사용하는 기능이기도 해서 애플이 미리 구현해놓은 메서드나 프로퍼티가 있는지 찾아봤다. 역시 있었다! `largeTitleDisplayMode` 인스턴스 프로퍼티를 사용해 열거형을 설정해주면 원하는 동작 구현이 가능하다.
+
+~~~swift
+// DetailViewController.swiftㅁ
+override func viewDidLoad() {
+    super.viewDidLoad()
+
+    // 일반 title 모드
+    navigationItem.largeTitleDisplayMode = .never
+}
+
+// RandomViewController.swift
+override func viewWillAppear() {
+    super.viewWillAppear()
+
+    // LargeTitle 모드
+    navigationItem.largeTitleDisplayMode = .always
+}
+~~~
+
+<img width="300" src="https://github.com/dev-sejin/BAEGOPA-RestaurantPicked/assets/113565086/3746cf31-bd9c-4a55-9228-a591845236ef">

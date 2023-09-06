@@ -1,0 +1,85 @@
+# ✅ Github에 API KEY값 숨기기
+
+#### #Github #API #Xcode 
+
+## **🔍** 작성 목적
+
+Public Repository에 API Key값을 무작정 커밋하다가는 큰일 날 수도 있다는 얘기를 많이 들었다.
+가령 몇백만원씩 결제가 된다거나,,, 그런 일을 막기 위해 키값을 숨기는 방법을 알아보자.
+
+<br>
+
+## 📌 적용 방법
+
+### 1. Property list 파일 활용하기
+
+찾아본 방법 중 적용하기도 쉽고, 팀원들과 협업할 때도 유용하게 사용할 수 있을만한 방법은 Property list 파일을 생성하는 것이었다.
+여기 Property list는 `Dictionary` 타입처럼 Key와 Value로 이루어져있는데, 여기에 API 키값을 적고 코드에서 끌어오는 방식이다.
+
+<img width="300" src="https://github.com/thinkySide/Connecting-the-Stars/assets/113565086/08b5799a-a3c1-429c-a216-27bf8ba32aa0">
+
+<br>
+
+### 2. API Key값 추가하기
+
+.plist 파일에 Key 필드에는 명시할 API키값의 이름을 적고, Value필드에는 실제 발급받은 Key값을 적으면 된다. 물론 이런다고 바로 적용되는건 아니다!
+
+<img src="https://github.com/thinkySide/Connecting-the-Stars/assets/113565086/01c9e029-b5cf-4549-9952-f1a9ac84e10a">
+
+<br>
+
+### 3. Key값 extension에 추가하기
+
+이제 .plist 파일에 작성한 키값을 받아 API 요청할 때 사용해보아야 한다! 쉬운 적용을 위해 Bundle을 확장하여 사용할 수 있다.
+
+~~~swift
+extension Bundle {
+    
+    // 계산 속성 생성(실질적 메서드기 때문에 extension에서 작성 가능)
+    var locationID: String {
+        // forResource: 파일명, ofType: 파일 타입
+        guard let file = self.path(forResource: "APIKEY", ofType: "plist") else { return "" }
+
+        // .plist Dictionary 형태로 받아오기
+        guard let resource = NSDictionary(contentsOfFile: file) else { return "" }
+
+        // Dictionary에서 Key값 검색
+        guard let key = resource["LocationID"] as? String else {
+            fatalError("LocationID error")
+
+        // Key Value 반환
+        return key
+        }
+    }
+}
+~~~
+
+<br>
+
+### 4. Key값 사용하기
+
+extension에 추가해두었기 때문에 사용법은 간단하다!
+이렇게 두었을 때 장점은 .plist 파일에 키값을 적어두기만 하면 실제 파일에서는 키값이 노출되지 않는다는 것이다.
+물론 여기서도 끝이 아니고 제일 중요한 git에 올라가지 않도록 설정하는 것이다.
+
+~~~swift
+let headerID = Bundle.main.locationID
+let headerID = Bundle.main.locationPW
+~~~
+
+<br>
+
+### 5. .gitignore에 .plist 파일 추가
+
+요렇게 해두면 push해도 APIKEY.plist 파일은 올라가지 않게 된다! 처음 clone 받게 되었을 때 팀원이 로컬에서 파일을 새로 생성해줘야한다는 번거로움이 있긴하지만 목적은 달성했다.
+
+~~~
+## .gitignore
+APIKEY.plist
+~~~
+
+<br>
+
+## 💌 Ref.
+
+- [나른한코딩 tistory](https://nareunhagae.tistory.com/44)

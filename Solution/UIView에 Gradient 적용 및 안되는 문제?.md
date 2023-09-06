@@ -1,6 +1,6 @@
 # ✅ UIView에 Gradient 적용 및 안되는 문제?
 
-#### #CAGradientLayer
+#### #CAGradientLayer #Publishing #UIKit 
 
 ## 🔍 작성 목적
 `UIView`에 커스텀 Gradient를 한번도 적용 해본적이 없어 정리해보고자 한다.
