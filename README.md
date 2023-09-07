@@ -17,13 +17,13 @@
 - [23. Async & Await 사용해보기 사용해보기](Solution/23.%20Async%20&%20Await%20사용해보기.md) - 23.04.06 ✅
 - [49. DispatchQueue에 예약된 작업 취소하기](Solution/49.%20DispatchQueue에%20예약된%20작업%20취소하기.md) - 23.08.18 ✅
 ### AutoLayout
--  [1. 코드로 UIStackView 생성시, 오토레이아웃 경고 메시지](Solution/1.%20코드로%20UIStackView%20생성시,%20오토레이아웃%20경고%20메시지%20뜨는%20문제.md)  - 23.03.15 ✅
+- [01. 코드로 UIStackView 생성시, 오토레이아웃 경고 메시지](Solution/01.%20코드로%20UIStackView%20생성시,%20오토레이아웃%20경고%20메시지%20뜨는%20문제.md)  - 23.03.15 ✅
 - [28. 두개 View 사이 정가운데에 View 배치하기](Solution/28.%20두개%20View%20사이%20정가운데에%20View%20배치하기.md) - 23.04.09 ✅
 <br>
 
 ## C
 ### Chart
-- [5. Charts 라이브러리 / 스크롤 시 화면 깨지는 문제](Solution/5.%20Charts%20라이브러리%20-%20스크롤%20시%20화면%20깨지는%20문제.md) - 23.03.22 ✅
+- [05. Charts 라이브러리 / 스크롤 시 화면 깨지는 문제](Solution/05.%20Charts%20라이브러리%20-%20스크롤%20시%20화면%20깨지는%20문제.md) - 23.03.22 ✅
 - [11. Charts 라이브러리 / MarkerView 가장자리에서 잘리는 문제](Solution/11.%20Charts%20라이브러리%20-%20MarkerView%20가장자리에서%20잘리는%20문제.md) - 23.03.31 ✅ 
 - [12. Charts 라이브러리 / MarkerView 이전 클릭값 출력 문제](Solution/12.%20Charts%20라이브러리%20-%20MarkerView%20이전%20클릭값%20출력%20문제.md) - 23.03.31 ✅
 ### CollectionView
@@ -49,7 +49,7 @@
 
 ## G
 ### Gesture
-- [7. StackView에 Touch Event 추가하기](Solution/7.%20StackView에%20Touch%20Event%20추가하기.md) - 23.03.29 ✅
+- [07. StackView에 Touch Event 추가하기](Solution/07.%20StackView에%20Touch%20Event%20추가하기.md) - 23.03.29 ✅
 - [50. LongPress Animation 만들기](Solution/50.%20LongPress%20Animation%20만들기.md) - 23.08.22 ✅
 ### Github
 - [36. Github에 API KEY값 숨기기](Solution/36.%20Github에%20API%20KEY값%20숨기기.md) - 23.05.02 ✅
@@ -74,16 +74,16 @@
 - [34. UIBarButtonItem의 title font 커스텀하기](Solution/34.%20UIBarButtonItem의%20title%20font%20커스텀하기.md) - 23.04.21 ✅
 - [39. UINavigation LargeTitle과 일반 Title 자연스럽게 전환하기](Solution/39.%20UINavigation%20LargeTitle과%20일반%20Title%20자연스럽게%20전환하기.md) - 23.05.20 ✅
 ### Networking
-- [8. URL을 생성하지 못하는 문제](Solution/8.%20URL을%20생성하지%20못하는%20문제.md) - 23.03.30 ✅
-- [9. URL로 부터 이미지 받아오기](Solution/9.%20URL로%20부터%20이미지%20받아오기.md) - 23.03.30 ✅
+- [08. URL을 생성하지 못하는 문제](Solution/08.%20URL을%20생성하지%20못하는%20문제.md) - 23.03.30 ✅
+- [09. URL로 부터 이미지 받아오기](Solution/09.%20URL로%20부터%20이미지%20받아오기.md) - 23.03.30 ✅
 - [40. 가변적인 값 개수의 Dictionary 타입 JSON 처리하기](Solution/40.%20가변적인%20값%20개수의%20Dictionary%20타입%20JSON%20처리하기.md) - 23.05.22 ✅
 <br>
 
 ## P
 ### Publishing
-- [2. UIView에 Gradient 적용 및 안되는 문제](Solution/2.%20UIView에%20Gradient%20적용%20및%20안되는%20문제?.md) - 23.03.16 ✅
-- [3. 커스텀 Font 사용하기](Solution/3.%20커스텀%20Font%20사용하기.md) - 23.03.16 ✅
-- [6. Dashed Line 만들기](Solution/6.%20Dashed%20Line%20만들기.md) - 23.03.23 ✅
+- [02. UIView에 Gradient 적용 및 안되는 문제](Solution/02.%20UIView에%20Gradient%20적용%20및%20안되는%20문제?.md) - 23.03.16 ✅
+- [03. 커스텀 Font 사용하기](Solution/03.%20커스텀%20Font%20사용하기.md) - 23.03.16 ✅
+- [06. Dashed Line 만들기](Solution/06.%20Dashed%20Line%20만들기.md) - 23.03.23 ✅
 - [13. UI 컴포넌트화 하기](Solution/13.%20UI%20Component화%20하기.md) - 23.03.31 ✅
 - [20. 특정 모서리에만 cornerRadius 값 주기](Solution/20.%20특정%20모서리에만%20cornerRadius%20값%20주기.md) - 23.04.04 ✅
 - [27. 유동적인 사이즈의 컴포넌트 생성하기](Solution/27.%20유동적인%20사이즈의%20컴포넌트%20생성하기.md) - 23.04.09 ✅
@@ -93,7 +93,7 @@
 ### SceneDelegate
 - [26. SceneDelegate에 타입 프로퍼티로 window 만들기](Solution/26.%20SceneDelegate에%20타입%20프로퍼티로%20window%20만들기.md) - 23.04.07 ✅
 ### ScrollView
-- [4. ScrollView 사용하기](Solution/4.%20ScrollView%20사용하기.md) - 23.03.20 ✅
+- [04. ScrollView 사용하기](Solution/04.%20ScrollView%20사용하기.md) - 23.03.20 ✅
 - [16. 특정 위치 스크롤 버튼 구현하기](Solution/16.%20특정%20위치%20스크롤%20버튼%20구현하기.md) - 23.04.03 ✅
 - [47. ScrollView의 드래그 애니메이션이 짧을 때 부자연스러워지는 현상](Solution/47.%20ScrollView의%20드래그%20애니메이션이%20짧을%20때%20부자연스러워지는%20현상.md) - 23.08.09 ✅
 ### SFSymbol
