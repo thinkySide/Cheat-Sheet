@@ -9,7 +9,7 @@
 ## 💎 Solution
 
 ## A
-#### Animation
+#### `Animation`
 - [51. 무한 반복되는 애니메이션 종료시키](Solution/무한%20반복되는%20애니메이션%20종료시키.md) - 23.09.06 ✅
 #### Array & Dictionary & Set
 - [45. 배열에서 특정한 값 삭제하기](Solution/배열에서%20특정한%20값%20삭제하기.md) - 23.07.07 ✅
