@@ -10,9 +10,9 @@
 
 ## A
 ### Animation
-- [x] [51. 무한 반복되는 애니메이션 종료시키](Solution/51.%20무한%20반복되는%20애니메이션%20종료시키.md) - 23.09.06 ✅
+- [51. 무한 반복되는 애니메이션 종료시키](Solution/51.%20무한%20반복되는%20애니메이션%20종료시키.md) - 23.09.06 ✅
 ### Array & Dictionary & Set
-- [ ] [45. 배열에서 특정한 값 삭제하기](Solution/45.%20배열에서%20특정한%20값%20삭제하기.md) - 23.07.07 ✅
+- [45. 배열에서 특정한 값 삭제하기](Solution/45.%20배열에서%20특정한%20값%20삭제하기.md) - 23.07.07 ✅
 ### Async & Sync
 - [23. Async & Await 사용해보기 사용해보기](Solution/23.%20Async%20&%20Await%20사용해보기.md) - 23.04.06 ✅
 - [49. DispatchQueue에 예약된 작업 취소하기](Solution/49.%20DispatchQueue에%20예약된%20작업%20취소하기.md) - 23.08.18 ✅
@@ -53,7 +53,6 @@
 - [50. LongPress Animation 만들기](Solution/50.%20LongPress%20Animation%20만들기.md) - 23.08.22 ✅
 ### Github
 - [36. Github에 API KEY값 숨기기](Solution/36.%20Github에%20API%20KEY값%20숨기기.md) - 23.05.02 ✅
----
 <br>
 
 ## I
