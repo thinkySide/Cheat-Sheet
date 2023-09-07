@@ -15,11 +15,12 @@
 - [45. 배열에서 특정한 값 삭제하기](Solution/배열에서%20특정한%20값%20삭제하기.md) - 23.07.07 ✅
 #### Async & Sync
 - [23. Async & Await 사용해보기 사용해보기](Solution/Async%20&%20Await%20사용해보기.md) - 23.04.06 ✅
-- [49DispatchQueue에 예약된 작업 취소하기](Solution/DispatchQueue에%20예약된%20작업%20취소하기.md) - 23.08.18 ✅
+- [49. DispatchQueue에 예약된 작업 취소하기](Solution/DispatchQueue에%20예약된%20작업%20취소하기.md) - 23.08.18 ✅
 #### AutoLayout
 -  [1. 코드로 UIStackView 생성시, 오토레이아웃 경고 메시지](Solution/코드로%20UIStackView%20생성시,%20오토레이아웃%20경고%20메시지%20뜨는%20문제.md)  - 23.03.15 ✅
 - [28. 두개 View 사이 정가운데에 View 배치하기](Solution/두개%20View%20사이%20정가운데에%20View%20배치하기.md) - 23.04.09 ✅
 <br>
+
 ## C
 #### Chart
 - [5. Charts 라이브러리 / 스크롤 시 화면 깨지는 문제](Solution/Charts%20라이브러리%20-%20스크롤%20시%20화면%20깨지는%20문제.md) - 23.03.22 ✅
@@ -30,10 +31,12 @@
 #### CoreData
 - [46. CoreData 저장이 안되는 문제](Solution/CoreData%20저장이%20안되는%20문제.md) - 23.08.05 ✅
 <br>
+
 ## D
 #### Double
 - [42. 실수형의 나머지값 구하기](Solution/실수형의%20나머지값%20구하기.md) - 23.06.20 ✅
 <br>
+
 ## F
 #### Features Implement
 - [15. 상단에 고정되는 StickyHeader 구현하기](Solution/상단에%20고정되는%20StickyHeader%20구현하기.md) - 23.04.02 ✅
@@ -43,6 +46,7 @@
 - [22. 현재 날짜 및 시간 표시하기](Solution/현재%20날짜%20및%20시간%20표시하기.md) - 23.04.05 ✅
 - [24. 금액에 콤마(,) 넣기](Solution/금액에%20콤마(,)%20넣기.md) - 23.04.06 ✅
 <br>
+
 ## G
 #### Gesture
 - [7. StackView에 Touch Event 추가하기](Solution/StackView에%20Touch%20Event%20추가하기.md) - 23.03.29 ✅
@@ -51,16 +55,17 @@
 - [36. Github에 API KEY값 숨기기](Solution/Github에%20API%20KEY값%20숨기기.md) - 23.05.02 ✅
 ---
 <br>
+
 ## I
 #### ImagView
 - [44. UIImageView 뒤집기](Solution/UIImageView뒤집기.md) - 23.07.01 ✅
-
 <br>
+
 ## L
 #### Label
 - [43. UILabel에 Padding값 설정하기](Solution/UILabel에%20Padding값%20설정하기.md) - 23.07.01 ✅
-
 <br>
+
 ## N
 #### NavigationController
 - [10. Pushing the same view controller instance more than once is not supported 오류](Solution/Pushing%20the%20same%20view%20controller%20instance%20more%20than%20once%20is%20not%20supported%20오류.md) - 23.03.30 ✅
@@ -73,6 +78,7 @@
 - [9. URL로 부터 이미지 받아오기](Solution/URL로%20부터%20이미지%20받아오기.md) - 23.03.30 ✅
 - [40. 가변적인 값 개수의 Dictionary 타입 JSON 처리하기](Solution/가변적인%20값%20개수의%20Dictionary%20타입%20JSON%20처리하기.md) - 23.05.22 ✅
 <br>
+
 ## P
 #### Publishing
 - [2. UIView에 Gradient 적용 및 안되는 문제](Solution/UIView에%20Gradient%20적용%20및%20안되는%20문제?.md) - 23.03.16 ✅
@@ -82,6 +88,7 @@
 - [20. 특정 모서리에만 cornerRadius 값 주기](Solution/특정%20모서리에만%20cornerRadius%20값%20주기.md) - 23.04.04 ✅
 - [27. 유동적인 사이즈의 컴포넌트 생성하기](Solution/유동적인%20사이즈의%20컴포넌트%20생성하기.md) - 23.04.09 ✅
 <br>
+
 ## S
 #### SceneDelegate
 - [26. SceneDelegate에 타입 프로퍼티로 window 만들기](Solution/SceneDelegate에%20타입%20프로퍼티로%20window%20만들기.md) - 23.04.07 ✅
@@ -99,6 +106,7 @@
 #### Swift Syntax
 - [41. Closure에서 self 생략하기](Solution/Closure에서%20self%20생략하기.md) - 23.05.23 ✅
 <br>
+
 ## T
 #### TabBarController
 - [14. TabBarController 코드로 구현하기](Solution/TabBarController%20코드로%20구현하기.md) - 23.04.02 ✅
@@ -108,6 +116,7 @@
 #### TextField
 - [31. UITextField 최대 글자수 만큼만 붙여넣기 하기](Solution/UITextField%20최대%20글자수%20만큼만%20붙여넣기%20하기.md) - 23.04.15 🚧
 <br>
+
 ## X
 #### Xcode & Simulator
 - [38. Xcode Commit Push 에러 - pathspec did not match any file(s) known to git](Solution/Xcode%20Commit%20Push%20에러%20-%20pathspec%20did%20not%20match%20any%20file(s)%20known%20to%20git.md) - 23.05.11 ✅
