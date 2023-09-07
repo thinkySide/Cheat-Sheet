@@ -8,15 +8,15 @@
  
 ## 💎 Solution
 
-## A
-#### `Animation`
+## 🅰️
+### `Animation`
 - [51. 무한 반복되는 애니메이션 종료시키](Solution/무한%20반복되는%20애니메이션%20종료시키.md) - 23.09.06 ✅
-#### Array & Dictionary & Set
+### `Array & Dictionary & Set`
 - [45. 배열에서 특정한 값 삭제하기](Solution/배열에서%20특정한%20값%20삭제하기.md) - 23.07.07 ✅
-#### Async & Sync
+### `Async & Sync`
 - [23. Async & Await 사용해보기 사용해보기](Solution/Async%20&%20Await%20사용해보기.md) - 23.04.06 ✅
 - [49. DispatchQueue에 예약된 작업 취소하기](Solution/DispatchQueue에%20예약된%20작업%20취소하기.md) - 23.08.18 ✅
-#### AutoLayout
+### `AutoLayout`
 -  [1. 코드로 UIStackView 생성시, 오토레이아웃 경고 메시지](Solution/코드로%20UIStackView%20생성시,%20오토레이아웃%20경고%20메시지%20뜨는%20문제.md)  - 23.03.15 ✅
 - [28. 두개 View 사이 정가운데에 View 배치하기](Solution/두개%20View%20사이%20정가운데에%20View%20배치하기.md) - 23.04.09 ✅
 <br>
