@@ -51,6 +51,7 @@
 ### Gesture
 - [07. StackView에 Touch Event 추가하기](Solution/07.%20StackView에%20Touch%20Event%20추가하기.md) - 23.03.29 ✅
 - [50. LongPress Animation 만들기](Solution/50.%20LongPress%20Animation%20만들기.md) - 23.08.22 ✅
+- [54. NavigationController없는 ViewController에서 뒤로가기 제스처 사용하기](Solution/54.%20NavigationController없는%20ViewController에서%20뒤로가기%20제스처%20사용하기.md) - 23.09.20 ✅
 ### Github
 - [36. Github에 API KEY값 숨기기](Solution/36.%20Github에%20API%20KEY값%20숨기기.md) - 23.05.02 ✅
 <br>
