@@ -98,6 +98,7 @@
 - [47. ScrollView의 드래그 애니메이션이 짧을 때 부자연스러워지는 현상](Solution/47.%20ScrollView의%20드래그%20애니메이션이%20짧을%20때%20부자연스러워지는%20현상.md) - 23.08.09 ✅
 ### SFSymbol
 - [32. SFSymbol 크기 조정하기](Solution/32.%20SFSymbol%20크기%20조정하기.md) - 23.04.19 ✅
+- [56. iOS17 업데이트로 사용 가능한 SFSymbolEffect](Solution/56.%20iOS17%20업데이트로%20사용%20가능한%20SFSymbolEffect.md) - 23.09.27 ✅
 ### StackView
 - [30. UIStackView에 ContentsInset 주기](Solution/30.%20UIStackView에%20ContentsInset%20주기.md) - 23.04.12 ✅
 ### String Handling
