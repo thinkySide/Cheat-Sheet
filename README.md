@@ -123,4 +123,4 @@
 - [38. Xcode Commit Push 에러 - pathspec did not match any file(s) known to git](Solution/38.%20Xcode%20Commit%20Push%20에러%20-%20pathspec%20did%20not%20match%20any%20file(s)%20known%20to%20git.md) - 23.05.11 ✅
 - [48. Xcode 무선으로 아이폰에 앱 빌드하기](Solution/48.%20Xcode%20무선으로%20아이폰에%20앱%20빌드하기.md) - 23.08.13 ✅
 - [53. Info.plist 파일 경로 바꾸기](Solution/53.%20Info.plist%20파일%20경로%20바꾸기.md) - 23.09.14 ✅
-- [55. Xcode15 - Sandbox swiftlint deny... error](Solution/55.%20Xcode15%20-%20Sandbox%20swiftlint%20deny...%20error.md)
+- [55. Xcode15 - Sandbox swiftlint deny... error](Solution/55.%20Xcode15%20-%20Sandbox%20swiftlint%20deny...%20error.md) - 23.09.27 ✅
