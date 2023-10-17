@@ -8,6 +8,7 @@
  
 ## 💎 Solution
 
+
 ## A
 ### Animation
 - [51. 무한 반복되는 애니메이션 종료시키](Solution/51.%20무한%20반복되는%20애니메이션%20종료시키.md) - 23.09.06 ✅
@@ -76,7 +77,7 @@
 - [21. UINavigationBar 뒤로가기 버튼 커스텀](Solution/21.%20UINavigationBar%20뒤로가기%20버튼%20커스텀.md) - 23.04.05 ✅
 - [34. UIBarButtonItem의 title font 커스텀하기](Solution/34.%20UIBarButtonItem의%20title%20font%20커스텀하기.md) - 23.04.21 ✅
 - [39. UINavigation LargeTitle과 일반 Title 자연스럽게 전환하기](Solution/39.%20UINavigation%20LargeTitle과%20일반%20Title%20자연스럽게%20전환하기.md) - 23.05.20 ✅
-- [59. PopViewController 애니메이션 동작 시 애니메이션 끊김 현상(키보드가 떠있을 때 발생)](Solution/59.%20PopViewController%20애니메이션%20동작%20시%20애니메이션%20끊김%20현상(키보드가%20떠있을%20때%20발생.md) - 23.10.16 ✅
+- [59. PopViewController 애니메이션 동작 시 애니메이션 끊김 현상(키보드가 떠있을 때 발생)](obsidian://open?vault=Life%20Universe&file=3.%20RESOURCE%2F%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%EB%85%B8%ED%8A%B8%2FSolution%2F59.%20PopViewController%20%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%20%EB%8F%99%EC%9E%91%20%EC%8B%9C%20%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%20%EB%81%8A%EA%B9%80%20%ED%98%84%EC%83%81(%ED%82%A4%EB%B3%B4%EB%93%9C%EA%B0%80%20%EB%96%A0%EC%9E%88%EC%9D%84%20%EB%95%8C%20%EB%B0%9C%EC%83%9D) - 23.10.16 ✅
 ### Networking
 - [08. URL을 생성하지 못하는 문제](Solution/08.%20URL을%20생성하지%20못하는%20문제.md) - 23.03.30 ✅
 - [09. URL로 부터 이미지 받아오기](Solution/09.%20URL로%20부터%20이미지%20받아오기.md) - 23.03.30 ✅
