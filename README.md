@@ -31,6 +31,7 @@
 - [35. UICollectionView 선택된 item으로 스크롤이 안되는 문제](Solution/35.%20UICollectionView%20선택된%20item으로%20스크롤이%20안되는%20문제.md) - 23.08.21 ✅
 ### CoreData
 - [46. CoreData 저장이 안되는 문제](Solution/46.%20CoreData%20저장이%20안되는%20문제.md) - 23.08.05 ✅
+- [60. CoreData 순서 재정렬하기](Solution/60.%20CoreData%20순서%20재정렬하기.md) - 23.10.17 ✅
 <br>
 
 ## D
@@ -75,7 +76,7 @@
 - [21. UINavigationBar 뒤로가기 버튼 커스텀](Solution/21.%20UINavigationBar%20뒤로가기%20버튼%20커스텀.md) - 23.04.05 ✅
 - [34. UIBarButtonItem의 title font 커스텀하기](Solution/34.%20UIBarButtonItem의%20title%20font%20커스텀하기.md) - 23.04.21 ✅
 - [39. UINavigation LargeTitle과 일반 Title 자연스럽게 전환하기](Solution/39.%20UINavigation%20LargeTitle과%20일반%20Title%20자연스럽게%20전환하기.md) - 23.05.20 ✅
-- [59. PopViewController 애니메이션 동작 시 애니메이션 끊김 현상(키보드가 떠있을 때 발생)](Solution/59.%20PopViewController%20애니메이션%20동작%20시%20애니메이션%20끊김%20현상(키보드가%20떠있을%20때%20발생) - 23.10.16 ✅
+- [59. PopViewController 애니메이션 동작 시 애니메이션 끊김 현상(키보드가 떠있을 때 발생)](Solution/59.%20PopViewController%20애니메이션%20동작%20시%20애니메이션%20끊김%20현상(키보드가%20떠있을%20때%20발생.md) - 23.10.16 ✅
 ### Networking
 - [08. URL을 생성하지 못하는 문제](Solution/08.%20URL을%20생성하지%20못하는%20문제.md) - 23.03.30 ✅
 - [09. URL로 부터 이미지 받아오기](Solution/09.%20URL로%20부터%20이미지%20받아오기.md) - 23.03.30 ✅
